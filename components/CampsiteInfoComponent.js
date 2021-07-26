@@ -62,7 +62,7 @@ class CampsiteInfo extends Component {
     this.state = {
       campsites: CAMPSITES,
       comments: COMMENTS,
-      favorite: false,
+      favorite: false
     };
   }
 
@@ -71,7 +71,7 @@ class CampsiteInfo extends Component {
   }
 
   static navigationOptions = {
-    title: "Campsite Information",
+    title: "Campsite Information"
   };
 
   render() {
